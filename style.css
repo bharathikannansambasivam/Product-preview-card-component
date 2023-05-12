@@ -1,86 +1,79 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: hsl(30, 38%, 92%);
-}
 
-.card {
-    display: flex;
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
+
+.card{
+    display:flex;
     justify-content: center;
     align-items: center;
+    background-color:  hsl(30, 38%, 92%);
     height: 100vh;
-    width: 70vw;
-    padding: 0 0 0 25%;
+    width: 100vw;
+
+}
+.image img{
+    height: 45vh;
+    width: 30vh;
+    border-radius:  10px 0 0 10px;
+
 }
 
-.image img {
-    border-radius: 10px 0 0 10px;
-    height: 50vh;
-    width: 100%;
-    object-fit: contain;
-}
-
-.product-info {
-    height: 50vh;
+.product-info{
+    background: rgb(255, 255, 255);
+    height: 45vh;
+    width: 30vh;
+    padding: 2rem;
     border-radius: 0 10px 10px 0;
 
-    width: 25vw;
-    background: hsl(0, 0%, 100%);
 }
-
-.product-info span {
+.product-info h1{
+    margin: 1.5rem 0;
+}
+.product-info p span{
     color: hsl(228, 12%, 48%);
-    font-family: "Montserrat", sans-serif;
-}
-
-h4 {
-    padding: 15% 0 0 2rem;
+    font-family: "Montserrat",sans-serif;
+    font-size: 1rem;
     letter-spacing: 5px;
-}
 
-.amnt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.amnt h2 {
-    font-family: "Fraunces", serif;
-    align-items: center;
-    padding: 0rem 0 0 1rem;
-    font-weight: bold;
-    font-size: 2rem;
-    color: hsl(158, 36%, 37%);
 }
 
 .product-info p {
-    font-family: "Montserrat", sans-serif;
-    padding: 10px 20% 1rem 2rem;
-    line-height: 1.5rem;
     color: hsl(228, 12%, 48%);
-    font-size: 14px;
+    font-family: "Montserrat",sans-serif;
+    line-height: 20px;
 }
 
-h1 {
-    padding: 1rem 0 1rem 2rem;
+.amnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-button {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+.amnt h1{
+color: hsl(158, 36%, 37%);
+font-size: 4vh;   
+ width: auto;
+ font-family: "Fraunces",sans-serif;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
     color: white;
-    width: 15vw;
+    width: 100%;
     background: hsl(158, 36%, 37%);
     border-radius: 5px;
     border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 15px 15px 25px;
-    gap: 10px;
-    margin: 5%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ padding:15px;
+ gap: 10px;
+
 }
+
