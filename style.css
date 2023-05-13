@@ -1,79 +1,97 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
 
-.card{
-    display:flex;
+.card {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  hsl(30, 38%, 92%);
+    background-color: hsl(30, 38%, 92%);
     height: 100vh;
     width: 100vw;
 
 }
-.image img{
+
+.image img {
     height: 45vh;
     width: 30vh;
-    border-radius:  10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
 
 }
 
-.product-info{
+.product-info {
     background: rgb(255, 255, 255);
     height: 45vh;
     width: 30vh;
-    padding: 2rem;
+    padding: 3vh;
     border-radius: 0 10px 10px 0;
 
 }
-.product-info h1{
-    margin: 1.5rem 0;
+
+.product-info h1 {
+    font-size: 3.5vh;
+    margin: 2vh 0;
+
 }
-.product-info p span{
+
+.product-info p span {
     color: hsl(228, 12%, 48%);
-    font-family: "Montserrat",sans-serif;
-    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5vh;
     letter-spacing: 5px;
 
 }
 
 .product-info p {
     color: hsl(228, 12%, 48%);
-    font-family: "Montserrat",sans-serif;
-    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2vh;
+    font-size: 16px;
+
 }
 
-.amnt{
+.amnt {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
 
-.amnt h1{
-color: hsl(158, 36%, 37%);
-font-size: 4vh;   
- width: auto;
- font-family: "Fraunces",sans-serif;
+.amnt h1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 4vh;
+    width: auto;
+    font-family: "Fraunces", sans-serif;
 }
-button{
+
+button {
     font-family: 'Montserrat', sans-serif;
-font-weight: bolder;
+    font-weight: bolder;
     color: white;
     width: 100%;
     background: hsl(158, 36%, 37%);
     border-radius: 5px;
     border: none;
-  display: flex;
- justify-content: center;
- align-items: center;
- padding:15px;
- gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh;
+    gap: 10px;
 
 }
 
+@media(max-width:650px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-info p {
+        font-size: 1.5vh;
+    }
+}
