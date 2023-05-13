@@ -19,7 +19,7 @@
 
 .image img {
     height: 50vh;
-    width: 40vh;
+    width: 35vh;
     border-radius: 10px 0 0 10px;
 
 }
@@ -27,7 +27,7 @@
 .product-info {
     background: rgb(255, 255, 255);
     height: 50vh;
-    width: 40vh;
+    width: 35vh;
     padding: 3vh;
     border-radius: 0 10px 10px 0;
 
