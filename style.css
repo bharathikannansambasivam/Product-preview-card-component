@@ -19,7 +19,7 @@
 
 .image img {
     height: 50vh;
-    width: 30vh;
+    width: 40vh;
     border-radius: 10px 0 0 10px;
 
 }
@@ -27,7 +27,7 @@
 .product-info {
     background: rgb(255, 255, 255);
     height: 50vh;
-    width: 30vh;
+    width: 40vh;
     padding: 3vh;
     border-radius: 0 10px 10px 0;
 
@@ -50,7 +50,7 @@
 .product-info p {
     color: hsl(228, 12%, 48%);
     font-family: "Montserrat", sans-serif;
-    line-height: 2vh;
+    line-height: 3vh;
     font-size: 16px;
 
 }
@@ -93,5 +93,6 @@ button {
 
     .product-info p {
         font-size: 1.5vh;
+    line-height: 2vh;
     }
 }
